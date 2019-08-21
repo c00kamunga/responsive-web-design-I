@@ -1,3 +1,160 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* Use your own code or past so/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	max-width: 95%;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.headerNav{
+	padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.innovation-circle{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 3rem;
+	padding-bottom: 2rem;
+}
+
+.button{
+	border: 2px solid black;
+	padding: 7px 35px 7px 35px;
+}
+
+.button:hover{
+	background-color: lightgreen;
+}
+
+
+.innovation h1{
+	font-size: 5rem;
+}
+
+
+.cookie-jar{
+	border-top: 2px solid black;
+	margin-top: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 55rem;
+	margin: 0 auto;
+}
+
+.top-image{
+	margin: 0 auto;
+}
+
+.main-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.middle-img{
+	width: 55rem;
+}
+
+.tic-tacs{
+	display: flex;
+	border-bottom: 2px solid black;
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	width: 55rem;
+	margin: 0 auto;
+}
+
+footer{
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	padding-left: 12rem;
+}
+
+.copyright{
+	text-align: center;
+	padding-right: 10rem;
+}
 
 
