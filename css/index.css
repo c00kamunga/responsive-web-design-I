@@ -174,8 +174,14 @@ footer{
     }
  
     .headerNav{
-        flex-flow: column-reverse;
+		flex-flow: column-reverse;
     }
+
+	.top-image{
+		display: none;
+	}
+	
+    
 }
 
 
