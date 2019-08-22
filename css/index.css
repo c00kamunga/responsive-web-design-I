@@ -75,6 +75,10 @@ header{
 	justify-content: center;
 }
 
+.header-tablet-view{
+    display: none;
+}
+
 .headerNav{
 	padding-top: 2rem;
     display: flex;
@@ -155,6 +159,23 @@ footer{
 .copyright{
 	text-align: center;
 	padding-right: 10rem;
+}
+
+
+
+
+
+
+/*TABLET VIEWPOINT*/
+
+@media(max-width: 800px){
+    *{
+        max-width: 100%;
+    }
+ 
+    .headerNav{
+        flex-flow: column-reverse;
+    }
 }
 
 
