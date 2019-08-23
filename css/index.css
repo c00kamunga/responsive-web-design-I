@@ -183,8 +183,24 @@ footer{
 	.top-image{
 		display: none;
 	}
-	
-    
+
+	footer{
+		padding: 0;
+	}
+	.copyright{
+		padding: 0;
+	}
 }
 
+
+
+@media(max-width: 500px){
+	.cookie-jar{
+		flex-direction: column;
+	}
+
+	.tic-tacs{
+		flex-direction: column;
+	}
+}
 
