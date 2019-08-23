@@ -75,9 +75,6 @@ header{
 	justify-content: center;
 }
 
-.header-tablet-view{
-    display: none;
-}
 
 .headerNav{
 	padding-top: 2rem;
@@ -87,6 +84,11 @@ header{
     align-items: center;
 }
 
+.nav-Container{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
 
 
 .innovation-circle{
@@ -121,7 +123,7 @@ header{
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
-	width: 55rem;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -137,7 +139,7 @@ header{
 }
 
 .middle-img{
-	width: 55rem;
+	width: 70%;
 }
 
 .tic-tacs{
@@ -146,19 +148,20 @@ header{
 	margin-bottom: 2rem;
 	padding-bottom: 2rem;
 	padding-top: 2rem;
-	width: 55rem;
+	width: 70%;
 	margin: 0 auto;
 }
 
 footer{
+	width: 70%;
 	margin-bottom: 2rem;
 	margin-top: 2rem;
-	padding-left: 12rem;
+	padding-left: 5rem;
 }
 
 .copyright{
 	text-align: center;
-	padding-right: 10rem;
+	margin: 0 auto;
 }
 
 
@@ -175,10 +178,20 @@ footer{
 	body{
 		margin: 0 auto;
 	}
+	
  
     .headerNav{
 		flex-flow: column-reverse;
-    }
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.nav-Container{
+		padding-top: 2rem;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
 
 	.top-image{
 		display: none;
@@ -195,6 +208,38 @@ footer{
 
 
 @media(max-width: 500px){
+
+	.first{
+		border-top: 2px solid grey;
+	}
+
+	.logo{
+		padding-bottom: 1.2rem;
+	}
+
+	.headerNav{
+		width: 100%;
+	}
+
+	.nav-Container{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		height: 300px;
+	}
+
+	.nav-Container a{
+		border-bottom: 2px solid gray;
+		width: 100%;
+		text-align: center;
+		padding: 1.2rem;
+		text-decoration: none;
+	}
+
+
+
+
+
 	.cookie-jar{
 		flex-direction: column;
 	}
