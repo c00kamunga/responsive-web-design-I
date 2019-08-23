@@ -153,16 +153,16 @@ header{
 }
 
 footer{
-	width: 70%;
 	margin-bottom: 2rem;
 	margin-top: 2rem;
-	padding-left: 5rem;
+	padding-left: 11.5rem;
 }
 
 .copyright{
-	text-align: center;
-	margin: 0 auto;
+	padding-left: 21.5rem;
 }
+
+
 
 
 
@@ -179,8 +179,7 @@ footer{
 		margin: 0 auto;
 	}
 	
- 
-    .headerNav{
+ 	.headerNav{
 		flex-flow: column-reverse;
 		justify-content: center;
 		align-items: center;
@@ -196,17 +195,19 @@ footer{
 	.top-image{
 		display: none;
 	}
-
 	footer{
-		padding: 0;
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+		padding-left: 6.5rem;
 	}
+	
 	.copyright{
-		padding: 0;
+		padding-left: 11rem;
 	}
 }
 
 
-
+/*Cellphone VIEW POINT*/
 @media(max-width: 500px){
 
 	.first{
@@ -236,16 +237,22 @@ footer{
 		text-decoration: none;
 	}
 
-
-
-
-
 	.cookie-jar{
 		flex-direction: column;
 	}
 
 	.tic-tacs{
 		flex-direction: column;
+	}
+
+	footer{
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+		padding-left: 4rem;
+	}
+	
+	.copyright{
+		padding-left: 4rem;
 	}
 }
 
